@@ -1,0 +1,46 @@
+body{
+    text-align: center;
+    height: 100%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* title - title and sub-title*/
+.title-container{
+    margin-top: 135px;
+}
+
+h1{
+    font-style: italic;
+    font-size: 45px;
+    margin-bottom: 0;
+}
+
+h3{
+    font-weight: 500;
+    font-size: 21px;
+    margin-top: 10px;
+}
+
+/* content - current color name & button */
+.content-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+h2{
+    margin-bottom: 45px;
+}
+
+button{
+    background-color: rebeccapurple;
+    color: aliceblue;
+    border: none;
+    border-radius: 30px;
+    padding: 15px 32px;
+}
+
+button:hover{
+    background-color: rgb(137, 70, 204);
+}
