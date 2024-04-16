@@ -2,22 +2,24 @@ body{
     text-align: center;
     height: 100%;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #EBE3D5;
 }
 
 /* title - title and sub-title*/
 .title-container{
-    margin-top: 135px;
+    margin-top: 200px;
 }
 
 h1{
     font-style: italic;
-    font-size: 45px;
+    font-size: 65px;
     margin-bottom: 0;
 }
 
 h3{
+    font-style: italic;
     font-weight: 500;
-    font-size: 21px;
+    font-size: 28px;
     margin-top: 10px;
 }
 
@@ -35,12 +37,15 @@ h2{
 
 button{
     background-color: rebeccapurple;
-    color: aliceblue;
+    color: rgb(255, 208, 0);
     border: none;
     border-radius: 30px;
-    padding: 15px 32px;
+    padding: 18px 40px;
+    letter-spacing: 1.5px;
 }
 
 button:hover{
     background-color: rgb(137, 70, 204);
+    padding: 22px 44px;
+    color: rgb(255, 219, 101);
 }
