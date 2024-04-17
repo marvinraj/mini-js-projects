@@ -15,5 +15,4 @@ function flipColour() {
     let randNum = Math.round(Math.random() * 5)
 
     // change colour of body
-    document.body.style.backgroundColor = colours[randNum]
 }
