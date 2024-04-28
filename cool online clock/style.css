@@ -4,16 +4,34 @@ body{
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
     font-family: 'Courier New', Courier, monospace;
+    background-image: url("cool-bg-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-h3{
-   font-size: 20px; 
+/* title */
+.title{
+   color: whitesmoke;
+   font-weight: 400;
+   /* font-style: italic;  */
 }
 
-span{
+/* clock */
+.clock-container span{
     font-size: 140px;
+    color: whitesmoke;
 }
 
-.ampm{
-    font-size: 16px;
+.clock-container .ampm{
+    font-size: 18px;
+    color: whitesmoke;
+}
+
+/* day date */
+.day-date-container{
+    text-align: center;
+}
+
+.day-date-container .day, .day-date-container .date{
+    color: whitesmoke;
 }
