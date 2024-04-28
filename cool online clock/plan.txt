@@ -2,4 +2,9 @@ what to dooooo?
 
 1. watch tut video, the whole thing -- https://www.youtube.com/watch?v=EWv2jnhZErc&t=2432s
 2. design the site - took 10 seconds
-3. code shit
+3. code shit but how?
+    1. display the time in html using span
+    2. display the title and day/date as well
+    3. use css to make it look cool -- follow the design in book
+    4. now the js part -
+        a. figure out later la
