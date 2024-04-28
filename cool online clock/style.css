@@ -1,4 +1,6 @@
 body{
+    margin: 0;
+    padding: 0;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -11,18 +13,23 @@ body{
 
 /* title */
 .title{
-   color: whitesmoke;
-   font-weight: 400;
-   /* font-style: italic;  */
+    color:gold;
+    /* color: whitesmoke; */
+    font-weight: 300;
+   font-style: italic; 
 }
 
 /* clock */
 .clock-container span{
-    font-size: 140px;
+    font-weight: bold;
+    font-size: 150px;
     color: whitesmoke;
 }
-
-.clock-container .ampm{
+.clock-container #hour{
+    color: gold;
+    font-style: italic;
+}
+.clock-container #ampm{
     font-size: 18px;
     color: whitesmoke;
 }
@@ -31,7 +38,6 @@ body{
 .day-date-container{
     text-align: center;
 }
-
 .day-date-container #day, .day-date-container #date, .day-date-container #month{
     color: whitesmoke;
 }
