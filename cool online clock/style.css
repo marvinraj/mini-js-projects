@@ -32,6 +32,6 @@ body{
     text-align: center;
 }
 
-.day-date-container .day, .day-date-container .date{
+.day-date-container #day, .day-date-container #date, .day-date-container #month{
     color: whitesmoke;
 }
