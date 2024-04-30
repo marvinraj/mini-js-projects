@@ -1,0 +1,18 @@
+wat da plan ?
+
+basic idea of program --
+- https://www.wonderspace.app/
+- https://studywithme.io/aesthetic-pomodoro-timer/
+- https://pomodorokitty.com/
+- https://nesto.cc/
+
+
+to do --
+1. search inspo on pomodoro timer websites/app
+    - inspo #1
+    - inspo #2
+2. design it in book - shouldnt take long 
+3. project file structure
+4. code structure
+5. code shit out
+
