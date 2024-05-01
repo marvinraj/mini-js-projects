@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&family=Encode+Sans:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&family=Encode+Sans:wght@100..900&family=Gelasio:ital,wght@0,400..700;1,400..700&display=swap');
+
 *{
     box-sizing: border-box;
 }
@@ -5,10 +11,41 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: "Aleo", serif;
+    font-weight: 200;
+    font-style: normal;
+    /* font-family: "Encode Sans", sans-serif;
+    font-weight: 100;
+    font-style: normal; */
+    color: whitesmoke;
+    background-color: #171010;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.title-desc-container{
+    width: 1325px;
+    margin: 0 auto;
 }
 
 .title{
     text-align: center;
+    font-family: "Gelasio", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.description{
+    font-size: 18px;
+    letter-spacing: 0.5px;
+}
+
+.highlight{
+    color: #F05941;
+    font-style: italic;
 }
 
 .content-container{
@@ -18,8 +55,32 @@ body{
 }
 
 .p-card{
-    background-color: antiquewhite;
-    width: 450px;
-    height: 325px;
+    background-color: #161616;
+    width: 425px;
+    height: 380px;
     margin-top: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.card-img{
+    height: 280px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.p1-img{
+    background-image: url("./images/p1.png");
+}
+.p2-img{
+    background-image: url("./images/p2.png");
+}
+.p3-img{
+    background-image: url("./images/3.jpg");
+}
+
+.p-card p{
+    font-size: 21px;
+    padding: 10px 0 0 30px;
 }
