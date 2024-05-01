@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.title{
+    text-align: center;
+}
+
+.content-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.p-card{
+    background-color: antiquewhite;
+    width: 450px;
+    height: 325px;
+    margin-top: 30px;
+}
