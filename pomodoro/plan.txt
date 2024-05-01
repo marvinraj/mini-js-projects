@@ -1,16 +1,21 @@
 wat da plan ?
 
 basic idea of program --
-- https://www.wonderspace.app/
-- https://studywithme.io/aesthetic-pomodoro-timer/
-- https://pomodorokitty.com/
-- https://nesto.cc/
+- display timer
+- 2 buttons at the bottom
+    - left button to start timer
+    - right button to reset timer
 
 
 to do --
 1. search inspo on pomodoro timer websites/app
-    - inspo #1
-    - inspo #2
+    - https://gridfiti.com/aesthetic-study-websites/
+    - https://flocus.com/minimalist-pomodoro-timer/?utm_source=gridblog-post&utm_medium=blog&utm_campaign=aesthetic-study-websites&utm_content=link
+    - https://pomofocus.io/
+    - https://www.wonderspace.app/
+    - https://studywithme.io/aesthetic-pomodoro-timer/
+    - https://pomodorokitty.com/
+    - https://nesto.cc/
 2. design it in book - shouldnt take long 
 3. project file structure
 4. code structure
