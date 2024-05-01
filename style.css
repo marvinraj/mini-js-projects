@@ -37,6 +37,8 @@ a{
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    margin-top: 45px;
+    margin-bottom: 55px;
 }
 .description{
     font-size: 18px;
