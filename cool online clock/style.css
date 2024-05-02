@@ -22,7 +22,7 @@ body{
 /* clock */
 .clock-container span{
     font-weight: bold;
-    font-size: 150px;
+    font-size: 130px;
     color: whitesmoke;
 }
 .clock-container #hour{
