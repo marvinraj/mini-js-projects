@@ -37,15 +37,13 @@ body{
 .timer-box{
     background-color:#F6F5F5;
     width: 500px;
+    height: 250px;
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     border-radius: 20px;
 }
 
 .timer{
-    font-size: 90px;
+    font-size: 100px;
     font-weight: 100;
 }
 
@@ -58,6 +56,7 @@ button{
     border: none;
     font-weight: 400;
     cursor: pointer;
+    font-size: 16px;
 }
 .btn-start{
     background-color: #FF204E;
@@ -70,4 +69,5 @@ button{
 
 .motivation{
     font-size: 14px;
+    margin-top: 12.5px;
 }
