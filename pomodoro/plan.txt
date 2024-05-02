@@ -20,4 +20,9 @@ to do --
 3. project file structure
 4. code structure
 5. code shit out
+6. but wait, how tf to code this shit?
+    a. store buttons in variables
+    b. store the minute and second elements in variables
+    c. create functions for each button
+    d. create a function that updates the timer on html
 
