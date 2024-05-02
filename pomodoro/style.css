@@ -61,10 +61,18 @@ button{
 .btn-start{
     background-color: #FF204E;
     width: 100%;
+    transition: 0.5s;
+}
+.btn-start:hover{
+    background-color: #e31d45;
 }
 .btn-reset{
     background-color: #c33a63;
     width: 100%;
+    transition: 0.5s;
+}
+.btn-reset:hover{
+    background-color: #c51f51;
 }
 
 .motivation{
