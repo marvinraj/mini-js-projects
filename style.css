@@ -56,6 +56,11 @@ a{
     gap: 30px;
 }
 
+.content-container ~ .content-container{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
 .p-card{
     background-color: #161616;
     width: 425px;
