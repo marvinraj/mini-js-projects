@@ -1,1 +1,7 @@
-just start coding shit lesgo
+da plan 
+
+1. lay out the structure with html only
+2. start just
+    - display word but each letter should be able to be targeted
+    - display scrambled word
+    
