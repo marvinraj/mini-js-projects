@@ -39,7 +39,8 @@ function randomizer(word){
         --current_index;
         [letters[current_index], letters[rand_index]] = [letters[rand_index], letters[current_index]]
     }
-    return letters
+    let randomized_word = letters.join(' ')
+    return randomized_word
 }
 display_word(word)
 // let array = randomizer("house")
