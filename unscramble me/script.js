@@ -1,5 +1,5 @@
 const word_to_guess = document.getElementById("word")
-const user_guess = document.getElementById("user-guess").value
+const user_guess = document.getElementById("user-input")
 const word_list = ["house", "apple", "orange", "ferrari", "porsche"]
 const word = "house"
 
@@ -9,16 +9,9 @@ randomly choose a word from the list,
 takes every letter in the word in random order and store it in an array
 return or display the word to html */
 function display_word(word){
-    arr_len = word_list.length
-    rand_num = Math.round(Math.random()*arr_len)
-
-    // for (let i=0; i<arr_len; i++){
-    //     curr_word = word_list[i]
-    //     let greet2 = randomize_letter(curr_word)
-    // }
+    // get word from randomizer function and display it on html page
     const randomized_word = randomizer(word)
     word_to_guess.innerHTML = randomized_word
-    console.log(user_guess)
 }
 
 /* function that takes in the current word and returns a string/list of
@@ -43,6 +36,43 @@ function randomizer(word){
     let randomized_word = letters.join(' ')
     return randomized_word
 }
-display_word(word)
+
+// check if user input is correct
+function check_word(input, curr_word) {
+    // check input
+    if (input == curr_word){
+        console.log("CORRECTTTTTTTTTTTTT")
+    } else if (input.length < 1) {
+        console.log("type in a word????")
+    } else {
+        console.log("FALSEEEEE BROOOOOOO")
+    }
+}
+
+
+// function select_word(word_list) {
+    
+// }
+
+arr_len = word_list.length
+
+for (;;){
+    rand_num = Math.round(Math.random()*arr_len)
+    curr_word = word_list[rand_num]
+    display_word(curr_word)
+    // get user input and answer
+    let input = user_guess.value
+    check_word(input, curr_word)
+}
+
+// for (let i=0; i<arr_len; i++){
+//     rand_num = Math.round(Math.random()*arr_len)
+//     curr_word = word_list[rand_num]
+//     display_word(curr_word)
+//     check_word()
+// }
+
+
+// change_word()
 // let array = randomizer("house")
 // console.log(array)
