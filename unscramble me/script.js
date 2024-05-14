@@ -1,4 +1,5 @@
-// const word_to_guess = document.getElementById("word")
+const word_to_guess = document.getElementById("word")
+const user_guess = document.getElementById("user-guess").value
 const word_list = ["house", "apple", "orange", "ferrari", "porsche"]
 const word = "house"
 
@@ -6,8 +7,7 @@ const word = "house"
 create a function that takes in a list of words,
 randomly choose a word from the list,
 takes every letter in the word in random order and store it in an array
-return or display the word to html
- */
+return or display the word to html */
 function display_word(word){
     arr_len = word_list.length
     rand_num = Math.round(Math.random()*arr_len)
@@ -16,12 +16,13 @@ function display_word(word){
     //     curr_word = word_list[i]
     //     let greet2 = randomize_letter(curr_word)
     // }
-    let a = randomizer(word)
-    console.log(a)
+    const randomized_word = randomizer(word)
+    word_to_guess.innerHTML = randomized_word
+    console.log(user_guess)
 }
 
-// function that takes in the current word and returns a string/list of
-// randomly arranged letters of the current word
+/* function that takes in the current word and returns a string/list of
+randomly arranged letters of the current word */
 function randomizer(word){
     word_len = word.length
     letters = []
