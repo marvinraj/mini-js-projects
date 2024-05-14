@@ -1,7 +1,6 @@
 const word_to_guess = document.getElementById("word")
 const user_guess = document.getElementById("user-input")
 const word_list = ["house", "apple", "orange", "ferrari", "porsche"]
-const word = "house"
 
 /*
 create a function that takes in a list of words,
@@ -17,7 +16,7 @@ function display_word(word){
 /* function that takes in the current word and returns a string/list of
 randomly arranged letters of the current word */
 function randomizer(word){
-    word_len = word.length
+    let word_len = word.length
     letters = []
     
     // store each letter in an array
@@ -49,12 +48,7 @@ function check_word(input, curr_word) {
     }
 }
 
-
-// function select_word(word_list) {
-    
-// }
-
-arr_len = word_list.length
+let arr_len = word_list.length
 
 for (;;){
     rand_num = Math.round(Math.random()*arr_len)
@@ -64,15 +58,3 @@ for (;;){
     let input = user_guess.value
     check_word(input, curr_word)
 }
-
-// for (let i=0; i<arr_len; i++){
-//     rand_num = Math.round(Math.random()*arr_len)
-//     curr_word = word_list[rand_num]
-//     display_word(curr_word)
-//     check_word()
-// }
-
-
-// change_word()
-// let array = randomizer("house")
-// console.log(array)
