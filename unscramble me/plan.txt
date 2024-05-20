@@ -1,7 +1,13 @@
 da plan 
 
 1. lay out the structure with html only
-2. start just
+2. start js : 
     - display word but each letter should be able to be targeted
     - display scrambled word
+    - display score and wrong for current word
+    - user types in word
+        -- wrong answer - display 'wrong answer' & increase wrong count by 1
+            -- guessed wrong 3 times - lose, restart game
+        -- correct answer - increase the score & change to next word
+            -- all words guessed, go back to q1, score resets to 0
     
