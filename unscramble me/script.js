@@ -1,5 +1,7 @@
 const word_to_guess = document.getElementById("word")
 const user_guess = document.getElementById("user-input")
+const score = document.getElementById("score")
+const wrong = document.getElementById("wrong")
 const word_list = ["house", "apple", "orange", "ferrari", "porsche"]
 
 /*
@@ -38,15 +40,17 @@ function randomizer(word){
 
 // check if user input is correct
 function check_word(input, curr_word) {
-    // check input
     if (input == curr_word){
-        console.log("CORRECTTTTTTTTTTTTT")
+        console.log("correct!!")
+    } else if (input != curr_word) {
+        console.log("incorrect!!")
     } else if (input.length < 1) {
         console.log("type in a word????")
     } else {
         console.log("FALSEEEEE BROOOOOOO")
     }
 }
+
 
 let arr_len = word_list.length
 

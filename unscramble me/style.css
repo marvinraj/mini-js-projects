@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #331D2C;
+    color: #EFE1D1;
+    font-family: "Raleway", sans-serif;
+}
+
+.container{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+}
+
+.container h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.container .letters{
+    margin-bottom: 20px;
+    color: #EE4E4E;
+    font-size: 25px;
+}
+
+.container .clue{
+    margin-bottom: 40px;
+}
+
+.container input{
+    padding: 10px;
+    background-color: #331D2C;
+    color: #EFE1D1;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.container button{
+    padding: 10px 20px;
+    background-color: #EFE1D1;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: transparent;
+    color: #EFE1D1;
+    transition: 0.3s;
+}
