@@ -1,0 +1,5 @@
+const score = document.querySelector(".score span")
+const chances = document.querySelector(".chances span")
+const word = document.querySelector("#word")
+const guess = document.querySelector("#user-input")
+const button = document.querySelector(".check-input")
