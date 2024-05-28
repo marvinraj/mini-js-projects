@@ -22,26 +22,37 @@ body{
     text-align: center;
 }
 
+/* TITLE */
 .container h1 {
     font-size: 60px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
+/* SCORE & CHANCES */
+.info{
+    display: flex;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+/* LETTERS TO GUESS */
 .container .letters{
     margin-bottom: 20px;
     color: #EE4E4E;
     font-size: 25px;
 }
 
+/* CLUES */
 .container .clue{
     margin-bottom: 40px;
 }
 
+/* INPUT & BUTTON */
 .container input{
     padding: 10px;
     background-color: #331D2C;
     color: #EFE1D1;
-    border: 1px solid white;
+    border: 1px solid #EE4E4E;
     border-radius: 5px;
 }
 
@@ -49,10 +60,11 @@ body{
     padding: 10px 20px;
     background-color: #EFE1D1;
     border-radius: 5px;
+    color: #EE4E4E;
 }
 
 button:hover{
     background-color: transparent;
-    color: #EFE1D1;
+    color: #EE4E4E;
     transition: 0.3s;
 }
