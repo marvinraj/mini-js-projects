@@ -1,13 +1,19 @@
 da plan 
 
 1. lay out the structure with html only
-2. start js : 
-    - display word but each letter should be able to be targeted
-    - display scrambled word
-    - display score and wrong for current word
-    - user types in word
-        -- wrong answer - display 'wrong answer' & increase wrong count by 1
-            -- guessed wrong 3 times - lose, restart game
-        -- correct answer - increase the score & change to next word
-            -- all words guessed, go back to q1, score resets to 0
+2. start js (logic) : 
+    - get elements from html that changes
+    - store words and clues in an array of objects
+    - create a start game function
+        -- select a word randomly from the array
+        -- shuffle the letters in the word
+        -- render the shuffled letters, score and chances into html
+    - create a function to check lose (player guess wrong)
+        - decrease chances
+    - create a function to check win (player guess correct) 
+        - increase score
+    - create function to check lose game entirely (chances = 0)
+        - send alert saying "loser noob" and restart game
+    - create a function to check score once player guesses all 10 words
+        - display alert - show score and restart game
     
